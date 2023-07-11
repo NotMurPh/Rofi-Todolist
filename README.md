@@ -32,10 +32,10 @@ This script takes in two arguments which the first one is the list name and the 
 Usage : todolist list_name [special_character]task
 ```
 
-__❗ Note that list_name only takes in your todolist name and not the list path if you want to change the list path reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist/edit/main/README.md#customization) section down below__ ( list path by default ~/.config/rofi/list_name.todo )
+__❗ Note that list_name only takes in your todolist name and not the list path if you want to change the list path reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist#customization-) section down below__ ( list path by default ~/.config/rofi/list_name.todo )
 
 If there is a special_character before the task like so `.task` this script add's `task` to specified todolist otherwise it tries removing it,
-for the customization of the special_character reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist/edit/main/README.md#customization) section down below
+for the customization of the special_character reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist#customization-) section down below
 
 ## Usage 🧑🏻‍💻
 
@@ -70,11 +70,11 @@ Then you have to tell rofi to show one of your modes using `-show` argument like
 ```bash
 # -show Argument takes a mode_name so in our example it would be:
 rofi -modi "general-todo : /path/to/todolist/script general , movie-todo : /path/to/todolist/script movie" -show general-todo
-# Or
+# or
 rofi -modi "general-todo : /path/to/todolist/script general , movie-todo : /path/to/todolist/script movie" -show movie-todo
 ```
 
-Once rofi is showen you can see your tasks 👀 and you can type to search through them 🔍 or you can type the special_character ( its . by default, for the customization of the special_character reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist/edit/main/README.md#customization) section down below ) followed by a task to add that to your todo list ➕ for example `.Do the dishes + Enter_key` and there you have it.
+Once rofi is showen you can see your tasks 👀 and you can type to search through them 🔍 or you can type the special_character ( its . by default, for the customization of the special_character reffer to [Customization](https://github.com/NotMurPh/Rofi-Todolist#customization-) section down below ) followed by a task to add that to your todo list ➕ for example `.Do the dishes + Enter_key` and there you have it.
 
 Finally if you have multiple todolists depending on your rofi theme supporting it you can click on other lists in rofi to switch between them, or by default you can just hit `Alt+Number_keys` like `Alt+1` and `Alt+2` to do the same thing.
 
