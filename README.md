@@ -15,6 +15,10 @@ Well i was using this awsome todolist https://github.com/claudiodangelis/rofi-to
   - Change/Remove the icon before each task
   - Add new features
 
+## Preview 🎥
+
+![](https://github.com/NotMurPh/Rofi-Todolist/blob/main/preview.gif)
+
 ## Installation 📥
 
 For the installation simply clone the project to your favorite location 
@@ -55,7 +59,7 @@ rofi -modi "mode_name : mode_script script_arguments"
 # So for example if we want a general todolist we do the folowing:
 rofi -modi "general-todo : /path/to/todolist/script general"
 # where general-todo is the rofi mode_name 
-# and /path/to/todolist/script is the path of todolist script( if correctly cloned ~/.local/bin/Rofi-Todolist/todolist )
+# and /path/to/todolist/script is the path of todolist script ( if correctly cloned ~/.local/bin/Rofi-Todolist/todolist )
 # and general is the first argument of the script which is the todolist name
 
 # If you want multiple todolists use , between rofi modes like so:
